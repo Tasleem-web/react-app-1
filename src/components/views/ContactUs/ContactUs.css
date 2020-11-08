@@ -1,0 +1,23 @@
+/*
+ * ContactUs css File
+*/
+
+.ContactUs {
+    /* propertys here */
+}
+
+.inner-container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.two-col>div {
+    margin: 0;
+    width: 47%;
+}
+
+.two-col {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
