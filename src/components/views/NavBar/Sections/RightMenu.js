@@ -71,14 +71,14 @@ function RightMenu(props) {
         {/* <Menu.Item key="history">
           <Link to="/history">History</Link>
         </Menu.Item> */}
-        {/* {
+        {
           role ?
             <Menu.Item key="upload">
               <Link to="/product/upload">{t('uploadProducts')}</Link>
             </Menu.Item>
             : null
         }
-        */}
+       
         {
           role ?
             <Menu.Item key="enquiry">
