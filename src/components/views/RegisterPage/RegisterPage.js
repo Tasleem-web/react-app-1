@@ -70,7 +70,7 @@ function RegisterPage(props) {
             name: values.name,
             lastname: values.lastname,
             image: `http://gravatar.com/avatar/${moment().unix()}?d=identicon`,
-            role:true
+            role: true,
           };
 
           dispatch(registerUser(dataToSubmit)).then(response => {

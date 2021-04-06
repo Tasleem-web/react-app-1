@@ -7,20 +7,20 @@ import { useTranslation } from 'react-i18next';
 const { Title } = Typography;
 const { TextArea } = Input;
 
+// const Continents = [
+//     { key: 1, value: "United Arab Emirates (UAE) د.إ" },
+//     { key: 2, value: "Africa R" },
+//     { key: 3, value: "Europe €" },
+//     { key: 4, value: "Asia ₹" }
+// ];
 const Continents = [
-    { key: 1, value: "United Arab Emirates (UAE) د.إ" },
-    { key: 2, value: "Africa R" },
-    { key: 3, value: "Europe €" },
-    { key: 4, value: "Asia ₹" }
+    { key: 1, value: "₹" }
 ];
 
 const productCategories = [
     { id: 1, category: "Gifts & Boxes" },
-    { id: 2, category: "Oud" },
-    { id: 3, category: "Mubkhar" },
-    { id: 4, category: "Oud Oil" },
-    { id: 5, category: "Perfumes" },
-    { id: 6, category: "Ma’amoul" }
+    { id: 4, category: "Oil" },
+    { id: 5, category: "Perfumes" }
 ]
 
 function UploadProductPage(props) {

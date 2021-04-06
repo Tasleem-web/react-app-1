@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Axios from 'axios';
-import { Icon, Col, Card, Row } from 'antd';
+import { Col, Card, Row } from 'antd';
 import ImageSlider from '../../utils/ImageSlider';
 import CheckBox from './Sections/CheckBox';
 import RadioBox from './Sections/RadioBox';
@@ -9,7 +9,7 @@ import SearchFeature from './Sections/SearchFeature';
 import { t } from 'i18next';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
-
+import Icon from '@ant-design/icons';
 const { Meta } = Card;
 
 function ListingPage() {

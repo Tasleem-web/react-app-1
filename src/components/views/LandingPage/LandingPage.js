@@ -53,8 +53,8 @@ export default function LandingPage() {
             homeSlider.map((item, index) => {
               return (<div className="mySlides fade" key={index}>
                 <div className="numbertext">{item.slideIndex} / {homeSlider.length}</div>
-                <img src={require('../../../assets/home-' + item.slideIndex + '.jpg')} />
-                {/* <div className="text">{item.slideName}</div> */}
+                <img src={require('../../../assets/home-' + item.slideIndex + '.jpg').default} />
+                <div className="text">{item.slideName}</div>
               </div>)
             })
             :
